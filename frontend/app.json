@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Mgo",
+    "slug": "mgo",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["android"],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "host.exp.exponent"
+    },
+    "android": {
+      "package": "host.exp.exponent"
+    }
+  }
+}
